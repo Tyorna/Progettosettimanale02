@@ -9,13 +9,19 @@ body{
     background-color: #E9EDEE;
 }
 
-header, .container{
+header, .container, .nero{
     text-align: left;
+}
+
+.logo, .resp{
+    width: 100%;
 }
 
 .logo{
     background-color: #222F3F;
-    width: 100%;
+}
+
+.logo, h1{
     margin-bottom: 0;
 }
 
@@ -31,14 +37,11 @@ header, .container{
     margin: 40px;
 }
 
-
-
 nav, aside{
     background-color: #364759;
-    margin: 0;
 }
 
-ul{
+nav, aside, ul{
     margin: 0;
 }
 
@@ -65,19 +68,13 @@ nav, .altro, .white, .banner, figure{
     margin-bottom: 40px;
 }
 
-h1 {
-    margin-bottom: 0;
-}
-
 .size{
     width: 50%;
     margin: auto;
 }
 
 .nero{
-    text-align: left;
     color: #1E1E1E;
-    padding: 15px;
 }
 
 span {
@@ -97,10 +94,6 @@ span {
     box-shadow: 1px 1px 8px 2px gray;
 }
 
-.resp{
-    width:100%;
-}
-
 figcaption{
     color: #151618;
     font-weight: 400;
@@ -114,7 +107,7 @@ a:link, a:visited{
     color: #E3EBF2;
 }
 
-aside{
+aside, .nero{
     padding: 15px;
 }
 
