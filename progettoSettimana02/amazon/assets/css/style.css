@@ -25,7 +25,7 @@ header, .container, .nero{
     margin-bottom: 0;
 }
 
-.imglogo, li, .img {
+.imglogo, li, .img, span {
     margin: 10px;
 }
 
@@ -33,7 +33,7 @@ header, .container, .nero{
     width: 9%;
     margin-left: 40px;
 }
-.altro, .banner, .white, span {
+.altro, .banner, .white{
     margin: 40px;
 }
 
@@ -73,7 +73,7 @@ nav, .altro, .white, .banner, figure{
     margin: auto;
 }
 
-.nero{
+.nero, figcaption{
     color: #1E1E1E;
 }
 
@@ -92,11 +92,6 @@ span {
     border-radius: 10%;
     margin: 0px 15px 20px 20px;
     box-shadow: 1px 1px 8px 2px gray;
-}
-
-figcaption{
-    color: #151618;
-    font-weight: 400;
 }
 
 a:link, a:visited{
