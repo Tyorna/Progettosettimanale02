@@ -94,12 +94,16 @@ span {
     box-shadow: 1px 1px 8px 2px gray;
 }
 
-a:link, a:visited{
+nav a, nav a:visited, span a, span a:visited{
     text-decoration: none;
 }
 
 .top, nav a{
     color: #E3EBF2;
+}
+
+.top, .top:visited{
+    text-decoration: underline;
 }
 
 aside, .nero{
